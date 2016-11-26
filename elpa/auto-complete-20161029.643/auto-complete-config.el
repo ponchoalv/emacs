@@ -36,7 +36,7 @@
 (declare-function yas-expand-snippet "yasnippet")
 (declare-function oref "eieio" (obj slot))
 
-
+
 
 ;;;; Additional sources
 

@@ -19,7 +19,7 @@
 (global-hl-line-mode 1)
 
 ;; Aggressive indent mode for all files
-(global-aggressive-indent-mode 1)
+;; (global-aggressive-indent-mode 1)
 
 
 ;; Interactive search key bindings. By default, C-s runs

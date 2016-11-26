@@ -10,3 +10,6 @@
 
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
+
+;; tramp mode for ssh
+ (setq tramp-default-method "ssh")

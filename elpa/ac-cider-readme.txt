@@ -1,11 +1,8 @@
-closed
- done
-depth=0 OU = Domain Control Validated, OU = PositiveSSL, CN = marmalade-repo.org
-verify error:num=20:unable to get local issuer certificate
-verify return:1
-depth=0 OU = Domain Control Validated, OU = PositiveSSL, CN = marmalade-repo.org
-verify error:num=27:certificate not trusted
-verify return:1
-depth=0 OU = Domain Control Validated, OU = PositiveSSL, CN = marmalade-repo.org
-verify error:num=21:unable to verify the first certificate
-verify return:1
+Provides a number of auto-complete sources for Clojure projects using CIDER
+and compliment.  This is a replacement for now deprecated ac-nrepl project by
+Steve Purcell.
+
+Installation:
+
+Available as a package in melpa.org.
+M-x package-install ac-cider
