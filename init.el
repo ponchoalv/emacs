@@ -69,7 +69,18 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+
+
+    ;; Rust mode
+    rust-mode
+
+    ;; company auto complete for rust
+    company
+
+    ;; Racer for Rust
+    racer
+    ))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
