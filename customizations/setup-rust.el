@@ -11,7 +11,8 @@
 
 (add-hook 'racer-mode-hook #'company-mode)
 
+
 ;; autocomplete
-(define-key rust-mode-map (kbd "TAB") #'company-indent-or-complete-common)
+(define-key rust-mode-map (kbd "<C-return>") #'company-indent-or-complete-common)
 (setq company-tooltip-align-annotations t)
 

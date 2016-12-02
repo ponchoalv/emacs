@@ -71,7 +71,6 @@
     ;; git integration
     magit
 
-
     ;; Rust mode
     rust-mode
 
@@ -80,6 +79,9 @@
 
     ;; Racer for Rust
     racer
+
+    ;; Theme
+    dracula-theme
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -156,7 +158,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (company racer rust-mode zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking aggressive-indent ac-cider))))
+    (dracula-theme racer rust-mode zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking aggressive-indent))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

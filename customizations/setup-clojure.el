@@ -1,3 +1,4 @@
+
 ;;;;
 ;; Clojure
 ;;;;
@@ -64,19 +65,19 @@
 (add-to-list 'auto-mode-alist '("\\.cljs.*$" . clojurescript-mode))
 (add-to-list 'auto-mode-alist '("lein-env" . enh-ruby-mode))
 
-;; autocomplete
-(require 'auto-complete-config)
-(ac-config-default)
-(setq ac-quick-help-delay 0.5)
-(require 'ac-cider)
-(add-hook 'cider-mode-hook 'auto-complete)
-(add-hook 'cider-mode-hook 'ac-flyspell-workaround)
-(add-hook 'cider-mode-hook 'ac-cider-setup)
-(add-hook 'cider-repl-mode-hook 'ac-cider-setup)
-(eval-after-load "auto-complete"
-  '(progn
-     (add-to-list 'ac-modes 'cider-mode)
-     (add-to-list 'ac-modes 'cider-repl-mode)))
+;; ;; autocomplete
+;; (require 'auto-complete-config)
+;; (ac-config-default)
+;; (setq ac-quick-help-delay 0.5)
+;; (require 'ac-cider)
+;; (add-hook 'cider-mode-hook 'auto-complete)
+;; (add-hook 'cider-mode-hook 'ac-flyspell-workaround)
+;; (add-hook 'cider-mode-hook 'ac-cider-setup)
+;; (add-hook 'cider-repl-mode-hook 'ac-cider-setup)
+;; (eval-after-load "auto-complete"
+;;   '(progn
+;;      (add-to-list 'ac-modes 'cider-mode)
+;;      (add-to-list 'ac-modes 'cider-repl-mode)))
 
 ;; key bindings
 ;; these help me out with the way I usually develop web apps
