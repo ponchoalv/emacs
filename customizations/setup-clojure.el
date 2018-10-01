@@ -16,7 +16,7 @@
 
 ;; A very practical way for indentation while writing code
 ;; https://github.com/Malabarba/aggressive-indent-mode
-;; (add-hook 'clojure-mode-hook #'aggressive-indent-mode)
+(add-hook 'clojure-mode-hook #'aggressive-indent-mode)
 
 ;; syntax hilighting for midje
 (add-hook 'clojure-mode-hook
@@ -66,9 +66,9 @@
 (add-to-list 'auto-mode-alist '("lein-env" . enh-ruby-mode))
 
 ;; ;; autocomplete
-;; (require 'auto-complete-config)
-;; (ac-config-default)
-;; (setq ac-quick-help-delay 0.5)
+;;(require 'auto-complete-config)
+;;(ac-config-default)
+;;(setq ac-quick-help-delay 0.5)
 ;; (require 'ac-cider)
 ;; (add-hook 'cider-mode-hook 'auto-complete)
 ;; (add-hook 'cider-mode-hook 'ac-flyspell-workaround)
@@ -79,7 +79,17 @@
 ;;      (add-to-list 'ac-modes 'cider-mode)
 ;;      (add-to-list 'ac-modes 'cider-repl-mode)))
 
-;; key bindings
+
+;; (add-hook 'cider-repl-mode-hook #'cider-company)
+;; (add-hook 'cider-mode-hook #'cider-company)
+
+(add-hook 'cider-repl-mode-hook #'company-mode)
+(add-hook 'cider-mode-hook #'company-mode)
+
+;; (add-hook 'cider-repl-mode-hook #'cider-company-enable-fuzzy-completion)
+;; (add-hook 'cider-mode-hook #'cider-company-enable-fuzzy-completion)
+
+;;key bindings
 ;; these help me out with the way I usually develop web apps
 (defun cider-start-http-server ()
   (interactive)
@@ -106,12 +116,12 @@
 
 
 ;; Enable clj-refactor for Clojure
-;; (require 'clj-refactor)
+(require 'clj-refactor)
 
-;; (defun my-clojure-mode-hook ()
-;;     (clj-refactor-mode 1)
-;;     (yas-minor-mode 1) ; for adding require/use/import statements
-;;     ;; This choice of keybinding leaves cider-macroexpand-1 unbound
-;;     (cljr-add-keybindings-with-prefix "C-c C-m"))
+(defun my-clojure-mode-hook ()
+    (clj-refactor-mode 1)
+    (yas-minor-mode 1) ; for adding require/use/import statements
+    ;; This choice of keybinding leaves cider-macroexpand-1 unbound
+    (cljr-add-keybindings-with-prefix "C-c C-m"))
 
-;; (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+(add-hook 'clojure-mode-hook #'my-clojure-mode-hook)

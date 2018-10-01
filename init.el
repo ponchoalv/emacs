@@ -7,7 +7,7 @@
 (add-to-list 'package-archives
              '("marmalade" . "https://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
-             '("tromey" . "http://tromey.com/elpa/") t)
+             '("tromey" . "https://tromey.com/elpa/") t)
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/") t)
 
@@ -15,9 +15,9 @@
 ;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
 ;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
 
-(when (< emacs-major-version 24)
-      ;; For important compatibility libraries like cl-lib
-      (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+;; (when (< emacs-major-version 24)
+;;   ;; For important compatibility libraries like cl-lib
+;;   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 
 ;; Load and activate emacs packages. Do this first so that the
 ;; packages are loaded before you start trying to modify them.
@@ -81,7 +81,7 @@
     racer
 
     ;; Theme
-    dracula-theme
+    leuven-theme
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -148,7 +148,7 @@
 (load "setup-js.el")
 
 ;; Rust mode
-(load "setup-rust.el")
+;; (load "setup-rust.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -158,7 +158,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (dracula-theme racer rust-mode zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking aggressive-indent))))
+    (leuven-theme clj-refactor dracula-theme racer rust-mode zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking aggressive-indent))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
