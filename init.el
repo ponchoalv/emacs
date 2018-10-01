@@ -80,6 +80,9 @@
     ;; Racer for Rust
     racer
 
+    ;; Treemacs
+    treemacs-projectile
+
     ;; Theme
     leuven-theme
     ))
