@@ -76,3 +76,6 @@
 
 (setq electric-indent-mode t)
 
+;; Set hash key-binding for mac os x
+;; Allow hash to be entered  
+(global-set-key (kbd "M-3") '(lambda () (interactive) (insert "#")))

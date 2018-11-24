@@ -1,0 +1,402 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/poncho/projects/guestbook-reagent-clojure/src/cljs/" . "guestbook/")
+ ("/Users/poncho/projects/guestbook-reagent-clojure/src/" . "cljs/")
+ ("/Users/poncho/projects/guestbook-reagent-clojure/" . "src/")
+ ("/Users/poncho/projects/" . "guestbook-reagent-clojure/")
+ ("/Users/poncho/desarrollo/rocket/examples/config/" . "src/")
+ ("/Users/" . "poncho/")
+ ("/" . "Users/")
+ ("/Users/poncho/.emacs.d/" . "customizations/")
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/src/main/java/" . "hello/")
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/src/main/" . "java/")
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/src/" . "main/")
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/" . "src/")
+ ("/Users/poncho/vaadinCRUD/" . "vaadinCRUD/")
+ ("/Users/poncho/desarrollo/rocket/examples/stream/" . "src/")
+ ("/Users/poncho/desarrollo/rocket/examples/" . "config/")
+ ("/Users/poncho/desarrollo/rocket/" . "examples/")
+ ("/Users/poncho/desarrollo/clojure-noob/src/" . "clojure_noob/")
+ ("/Users/poncho/desarrollo/clojure-noob/" . "src/")
+ ("/Users/poncho/work/src/github.com/ponchoalv/" . "gowiki/")
+ ("/Users/poncho/work/src/github.com/" . "ponchoalv/")
+ ("/Users/poncho/work/src/" . "github.com/")
+ ("/Users/poncho/work/" . "src/")
+ ("/Users/poncho/desarrollo/the-divine-cheese-code/src/the_divine_cheese_code/" . "visualization/")
+ ("/Users/poncho/desarrollo/the-divine-cheese-code/src/" . "the_divine_cheese_code/")
+ ("/Users/poncho/desarrollo/the-divine-cheese-code/" . "src/")
+ ("/Users/poncho/desarrollo/" . "fwpd/")
+ ("/Users/poncho/" . ".emacs.d/")
+ ("c:/Users/ponch/projects/rocket-pastebin/" . "src/")
+ ("c:/Users/ponch/projects/simply-url/resources/" . "migrations/")
+ ("c:/Users/ponch/projects/simply-url/src/clj/simply_url/" . "routes/")
+ ("c:/Users/ponch/projects/simply-url/src/clj/" . "simply_url/")
+ ("c:/Users/ponch/projects/simply-url/src/" . "clj/")
+ ("c:/Users/ponch/projects/simply-url/" . "resources/")
+ ("c:/Users/ponch/projects/yaus/" . "src/")
+ ("c:/Users/ponch/projects/sms-api/env/prod/clj/" . "sms_api/")
+ ("c:/Users/ponch/projects/sms-api/env/prod/" . "clj/")
+ ("c:/Users/ponch/projects/sms-api/env/" . "prod/")
+ ("c:/Users/ponch/projects/sms-api/src/clj/sms_api/routes/" . "services/")
+ ("c:/Users/ponch/projects/sms-api/src/clj/sms_api/" . "routes/")
+ ("c:/Users/ponch/projects/sms-api/src/clj/" . "sms_api/")
+ ("c:/Users/ponch/projects/sms-api/src/" . "clj/")
+ ("c:/Users/ponch/projects/sms-api/" . "src/")
+ ("c:/Users/ponch/runtime-EclipseApplication/" . ".metadata/")
+ ("c:/Users/ponch/projects/chat/" . "src/")
+ ("c:/Users/ponch/projects/picture-gallery/test/clj/picture_gallery/test/" . "db/")
+ ("c:/Users/ponch/projects/picture-gallery/test/clj/picture_gallery/" . "test/")
+ ("c:/Users/ponch/projects/picture-gallery/test/clj/" . "picture_gallery/")
+ ("c:/Users/ponch/projects/picture-gallery/test/" . "clj/")
+ ("c:/Users/ponch/projects/picture-gallery/env/prod/cljs/" . "picture_gallery/")
+ ("c:/Users/ponch/projects/picture-gallery/env/prod/clj/" . "picture_gallery/")
+ ("c:/Users/ponch/projects/picture-gallery/env/prod/" . "clj/")
+ ("c:/Users/ponch/projects/picture-gallery/env/" . "prod/")
+ ("c:/Users/ponch/AppData/Roaming/.emacs.d/elpa/" . "auto-complete-20161029.643/")
+ ("c:/Users/ponch/projects/picture-gallery/src/cljs/picture_gallery/" . "components/")
+ ("c:/Users/ponch/projects/picture-gallery/resources/public/" . "css/")
+ ("c:/Users/ponch/projects/picture-gallery/src/cljs/" . "picture_gallery/")
+ ("c:/Users/ponch/projects/picture-gallery/src/cljc/" . "picture_gallery/")
+ ("c:/Users/ponch/projects/picture-gallery/src/clj/picture_gallery/routes/" . "services/")
+ ("c:/Users/ponch/projects/picture-gallery/src/clj/picture_gallery/" . "routes/")
+ ("c:/Users/ponch/projects/picture-gallery/resources/" . "sql/")
+ ("c:/Users/ponch/projects/picture-gallery/src/clj/" . "picture_gallery/")
+ ("c:/Users/ponch/projects/picture-gallery/src/" . "clj/")
+ ("c:/Users/ponch/projects/picture-gallery/" . "src/")
+ ("c:/Users/ponch/projects/reporting-example/env/dev/clj/" . "reporting_example/")
+ ("c:/Users/ponch/projects/reporting-example/env/dev/" . "clj/")
+ ("c:/Users/ponch/projects/reporting-example/env/" . "dev/")
+ ("c:/Users/ponch/projects/reporting-example/src/clj/reporting_example/" . "routes/")
+ ("c:/Users/ponch/projects/reporting-example/src/clj/" . "reporting_example/")
+ ("c:/Users/ponch/projects/reporting-example/src/" . "clj/")
+ ("c:/Users/ponch/projects/reporting-example/resources/" . "templates/")
+ ("c:/Users/ponch/projects/reporting-example/" . "src/")
+ ("c:/Users/ponch/projects/db-examples/src/" . "db_examples/")
+ ("c:/Users/ponch/projects/db-examples/" . "resources/")
+ ("c:/Users/ponch/projects/swagger-service/resources/" . "templates/")
+ ("c:/Users/ponch/projects/swagger-service/env/dev/cljs/" . "swagger_service/")
+ ("c:/Users/ponch/projects/swagger-service/env/dev/" . "cljs/")
+ ("c:/Users/ponch/projects/swagger-service/env/" . "dev/")
+ ("c:/Users/ponch/projects/swagger-service/src/cljs/" . "swagger_service/")
+ ("c:/Users/ponch/projects/swagger-service/src/clj/swagger_service/" . "routes/")
+ ("c:/Users/ponch/projects/swagger-service/src/clj/" . "swagger_service/")
+ ("c:/Users/ponch/projects/swagger-service/src/" . "clj/")
+ ("c:/Users/ponch/projects/swagger-service/" . "src/")
+ ("c:/Users/ponch/projects/guestbook/src/cljs/" . "guestbook/")
+ ("c:/Users/ponch/projects/guestbook/env/prod/clj/" . "guestbook/")
+ ("c:/Users/ponch/projects/guestbook/env/prod/" . "clj/")
+ ("c:/Users/ponch/projects/guestbook/env/dev/clj/" . "guestbook/")
+ ("c:/Users/ponch/projects/guestbook/env/dev/" . "clj/")
+ ("c:/Users/ponch/projects/guestbook/env/" . "prod/")
+ ("c:/Users/ponch/projects/guestbook/test/clj/guestbook/" . "test/")
+ ("c:/Users/ponch/projects/guestbook/test/clj/" . "guestbook/")
+ ("c:/Users/ponch/projects/guestbook/test/" . "clj/")
+ ("c:/Users/ponch/projects/guestbook/resources/public/" . "css/")
+ ("c:/Users/ponch/projects/guestbook/src/clj/guestbook/" . "routes/")
+ ("c:/Users/ponch/projects/guestbook/src/clj/" . "guestbook/")
+ ("c:/Users/ponch/projects/guestbook/src/" . "cljs/")
+ ("c:/Users/ponch/projects/guestbook/resources/" . "templates/")
+ ("c:/Users/ponch/projects/guestbook/" . "resources/")
+ ("c:/Users/ponch/projects/my-app/env/dev/clj/" . "my_app/")
+ ("c:/Users/ponch/projects/my-app/env/dev/" . "resources/")
+ ("c:/Users/ponch/projects/my-app/env/" . "dev/")
+ ("c:/Users/ponch/projects/my-app/src/clj/" . "my_app/")
+ ("c:/Users/ponch/projects/my-app/src/" . "clj/")
+ ("c:/Users/ponch/projects/my-app/" . "env/")
+ ("c:/Users/ponch/projects/my-app/resources/" . "templates/")
+ ("c:/app/oracledb/product/12.1.0/dbhome_1/" . "NETWORK/")
+ ("c:/app/oracledb/product/12.1.0/" . "dbhome_1/")
+ ("c:/app/oracledb/product/" . "12.1.0/")
+ ("c:/app/oracledb/admin/" . "bpm/")
+ ("c:/app/oracledb/" . "product/")
+ ("c:/app/" . "oracledb/")
+ ("c:/Users/ponch/projects/the-divine-cheese-code/src/" . "the_divine_cheese_code/")
+ ("c:/Users/ponch/projects/the-divine-cheese-code/" . "src/")
+ ("c:/Users/ponch/projects/fwpd/" . "src/")
+ ("c:/Users/ponch/projects/fwpd/src/" . "fwpd/")
+ ("c:/Users/ponch/projects/clojure-noob/src/" . "clojure_noob/")
+ ("c:/Users/ponch/projects/clojure-noob/" . "src/")
+ ("c:/Users/ponch/projects/" . "picture-gallery/")
+ ("c:/Users/ponch/AppData/Roaming/.emacs.d/" . "customizations/")
+ ("c:/Users/ponch/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/ponch/AppData/" . "Roaming/")
+ ("c:/Users/ponch/" . "AppData/")
+ ("c:/Users/" . "ponch/")
+ ("c:/" . "Users/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/poncho/.emacs.d/customizations/"
+ "/Users/poncho/projects/guestbook-reagent-clojure/src/cljs/guestbook/"
+ "/Users/poncho/desarrollo/fwpd/"
+ "/Users/poncho/desarrollo/rocket/examples/config/src/"
+ "/Users/poncho/.emacs.d/"
+ "/Users/poncho/desarrollo/rocket/examples/stream/src/"
+ "/Users/poncho/vaadinCRUD/vaadinCRUD/src/main/java/hello/"
+ "/Users/poncho/desarrollo/clojure-noob/src/clojure_noob/"
+ "/Users/poncho/work/src/github.com/ponchoalv/gowiki/"
+ "/Users/poncho/desarrollo/the-divine-cheese-code/src/the_divine_cheese_code/"
+ "c:/Users/ponch/AppData/Roaming/.emacs.d/customizations/"
+ "c:/Users/ponch/projects/picture-gallery/src/clj/picture_gallery/routes/services/"
+ "c:/Users/ponch/projects/picture-gallery/"
+ "c:/Users/ponch/projects/picture-gallery/src/clj/picture_gallery/db/"
+ "c:/Users/ponch/projects/picture-gallery/resources/sql/"
+ "c:/Users/ponch/projects/picture-gallery/src/clj/picture_gallery/routes/"
+ "c:/Users/ponch/projects/guestbook/"
+ "c:/Users/ponch/projects/guestbook/resources/templates/"
+ "c:/Users/ponch/projects/guestbook/src/cljs/guestbook/"
+ "c:/Users/ponch/projects/guestbook/src/clj/guestbook/routes/"
+ "c:/Users/ponch/projects/picture-gallery/src/cljs/picture_gallery/components/"
+ "c:/Users/ponch/projects/picture-gallery/src/cljs/picture_gallery/"
+ "c:/Users/ponch/projects/picture-gallery/resources/migrations/"
+ "c:/Users/ponch/projects/picture-gallery/src/clj/picture_gallery/"
+ "c:/Users/ponch/projects/sms-api/src/clj/sms_api/routes/services/"
+ "c:/Users/ponch/projects/sms-api/src/clj/sms_api/routes/"
+ "c:/Users/ponch/projects/rocket-pastebin/src/"
+ "c:/Users/ponch/projects/rocket-pastebin/"
+ "c:/Users/ponch/projects/yaus/src/"
+ "c:/Users/ponch/projects/simply-url/resources/migrations/"
+ "c:/Users/ponch/projects/simply-url/src/clj/simply_url/"
+ "c:/Users/ponch/projects/simply-url/src/clj/simply_url/routes/"
+ "c:/Users/ponch/projects/yaus/"
+ "c:/Users/ponch/projects/sms-api/env/prod/clj/sms_api/"
+ "c:/Users/ponch/projects/sms-api/"
+ "c:/Users/ponch/projects/swagger-service/src/clj/swagger_service/routes/"
+ "c:/Users/ponch/AppData/Roaming/.emacs.d/"
+ "c:/Users/ponch/projects/chat/"
+ "c:/Users/ponch/projects/chat/src/"
+ "c:/Users/ponch/AppData/"
+ "c:/Users/ponch/.lein/"
+ "c:/Users/ponch/projects/picture-gallery/test/clj/picture_gallery/test/"
+ "c:/Users/ponch/projects/picture-gallery/resources/translations/"
+ "translations/"
+ "c:/Users/ponch/projects/picture-gallery/resources/public/css/"
+ "c:/Users/ponch/projects/picture-gallery/resources/templates/"
+ "c:/Users/ponch/projects/picture-gallery/resources/"
+ "c:/Users/ponch/projects/picture-gallery/env/prod/clj/picture_gallery/"
+ "c:/Users/ponch/projects/picture-gallery/env/prod/resources/"
+ "c:/Users/ponch/projects/picture-gallery/env/prod/cljs/picture_gallery/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "ui.el"
+ "ws.cljs"
+ "project.clj"
+ "setup-rust.el"
+ "lib.rs"
+ "init.el"
+ "main.rs"
+ "VaadinUI.java"
+ "core.clj"
+ "wiki.go"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/poncho/.emacs.d/" (23469 8835 323281 862000) ".recentf~" ".smex-items" "cider-history" "backups/" "themes/" "elpa/" "network-security.data" ".gitignore" ".recentf" "README.md" "init.el" "url/" "auto-save-list/" "server/" "projectile.cache" "tramp" "projectile-bookmarks.eld" "places" "ido.last~" "customizations/" "eshell/" ".DS_Store" "init.el~" "ido.last" "../" "./")
+
+ ("/Users/poncho/" (23482 10564 560607 342000) ".viminfo" ".bash_history" ".cache/" "Downloads/" ".aspnet/" "Fonts/" ".bash_profile" ".m2/" ".vscode/" ".mono/" ".IdeaIC15/" "Documents/" "IdeaProjects/" ".Trash/" ".profile" "Applications/" ".dotnet/" "Movies/" ".rustup/" "unrar/" "work/" ".idlerc/" ".gitignore" "Public/" "yarn.lock" ".lein/" ".bash_sessions/" "desarrollo/" ".dlv/" ".android/" ".cargo/" ".node_repl_history" ".emacs.d/" ".IdentityService/" ".oracle_jre_usage/" "iCloud Drive (archivo)/" "Library/" "Desktop/" ".nuget/" "node_modules/" "vaadinCRUD/" ".multirust/" "Pictures/" "projects/" "Configuraciones/" ".psql_history" ".local/" "Libros/" ".ServiceHub/" "dbconf.ini" ".subversion/" ".CFUserTextEncoding" ".yarnrc" ".lldb/" ".DS_Store" ".vim/" "client.ini" ".node-gyp/" "vstore.dat" "Music/" ".config/" ".eclipse/" "locale.ini" "../" "./")
+
+ ("/Users/poncho/projects/guestbook-reagent-clojure/src/cljs/guestbook/" (22567 16219 0 0) "core.cljs" "ws.cljs" "../" "./")
+
+ ("/Users/poncho/projects/guestbook-reagent-clojure/src/cljs/" (22567 16219 0 0) "guestbook/" "../" "./")
+
+ ("/Users/poncho/projects/guestbook-reagent-clojure/src/" (22989 38122 76553 221000) "clj/" "cljs/" ".DS_Store" "../" "./")
+
+ ("/Users/poncho/projects/guestbook-reagent-clojure/" (23274 31215 114199 124000) "src/" ".idea/" "guestbook_test.db.trace.db" ".git/" "Procfile" "Capstanfile" "log/" ".gitattributes" "guestbook_dev.db.trace.db" ".gitignore" "guestbook_test.db.mv.db" "env/" "README.md" ".nrepl-port" "profiles.clj" "guestbook_dev.db.mv.db" "resources/" "target/" "Dockerfile" "test/" ".DS_Store" ".lein-env" "project.clj" "../" "./")
+
+ ("/Users/poncho/projects/" (23316 14256 609987 550000) ".idea/" "picture-gallery/" "swagger-service/" "guestbook-reagent-clojure/" ".DS_Store" "../" "./")
+
+ ("/Users/poncho/desarrollo/" (23205 57180 127019 495000) "src" "holamundo/" ".vscode/" "fwpd/" "rocket/" "swift/" "pegthing/" "clojure-noob/" "mutants-java/" "typings/" "the-divine-cheese-code/" ".DS_Store" "rust-chat/" "../" "./")
+
+ ("/Users/poncho/.emacs.d/customizations/" (23203 61118 418668 691000) "elisp-editing.el" "ui.el~" "setup-js.el" "navigation.el" "editing.el" "setup-rust.el" "setup-clojure.el" "misc.el" "shell-integration.el" "ui.el" "setup-clojure.el~" "../" "./")
+
+ ("/Users/poncho/desarrollo/rocket/examples/config/src/" (22632 9609 0 0) "main.rs" "lib.rs" "../" "./")
+
+ ("/Users/poncho/desarrollo/rocket/examples/config/" (22632 9609 0 0) "src/" "Rocket.toml" "tests/" "Cargo.toml" "../" "./")
+
+ ("/Users/" (22988 16025 203421 824000) "Guest/" "Shared/" "poncho/" ".localized" "../" "./")
+
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/src/main/java/hello/" (22344 36188 0 0) "VaadinUI.java" "CustomerEditor.java" "Customer.java" "Application.java" "CustomerRepository.java" "../" "./")
+
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/src/main/java/" (22344 25044 0 0) "hello/" "../" "./")
+
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/src/main/" (22344 24927 0 0) "java/" "resources/" "../" "./")
+
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/src/" (22389 46445 0 0) "main/" "test/" ".DS_Store" "../" "./")
+
+ ("/Users/poncho/vaadinCRUD/vaadinCRUD/" (22389 46445 0 0) "src/" ".idea/" "vaadinCRUD.iml" "pom.xml" "target/" ".DS_Store" "../" "./")
+
+ ("/Users/poncho/vaadinCRUD/" (22344 49413 0 0) "vaadinCRUD/" ".DS_Store" "../" "./")
+
+ ("/Users/poncho/desarrollo/rocket/examples/stream/src/" (22632 9609 0 0) "main.rs" "../" "./")
+
+ ("/Users/poncho/desarrollo/rocket/examples/stream/" (22632 9609 0 0) "src/" "Cargo.toml" "../" "./")
+
+ ("/Users/poncho/desarrollo/rocket/examples/" (22632 9609 0 0) "cookies/" "raw_upload/" "handlebars_templates/" "optional_redirect/" "from_request/" "form_kitchen_sink/" "errors/" "redirect/" "query_params/" "json/" "static_files/" "testing/" "hello_ranks/" "content_types/" "todo/" "pastebin/" "extended_validation/" "hello_alt_methods/" "manual_routes/" "stream/" "config/" "hello_world/" "forms/" "optional_result/" "hello_person/" "../" "./")
+
+ ("/Users/poncho/desarrollo/rocket/" (23001 5699 322293 485000) ".idea/" "LICENSE-MIT" ".travis.yml" ".git/" "lib/" "scripts/" "examples/" ".gitignore" "appveyor.yml" "README.md" "codegen/" "contrib/" "CHANGELOG.md" "rustfmt.toml" "LICENSE-APACHE" "Cargo.toml" "../" "./")
+
+ ("/Users/poncho/desarrollo/clojure-noob/src/clojure_noob/" (22446 19188 0 0) " *Minibuf-2*" "core.clj" " *Minibuf-3*" "../" "./")
+
+ ("/Users/poncho/desarrollo/clojure-noob/src/" (22443 14583 0 0) "clojure_noob/" "../" "./")
+
+ ("/Users/poncho/desarrollo/clojure-noob/" (22446 18952 0 0) "src/" "doc/" ".gitignore" ".lein-repl-history" "README.md" ".nrepl-port" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/poncho/work/src/github.com/ponchoalv/gowiki/" (22369 43792 0 0) ".idea/" "data/" "wiki.go" "wiki" "tmpl/" ".DS_Store" "../" "./")
+
+ ("/Users/poncho/work/src/github.com/ponchoalv/" (22369 41749 0 0) "upload/" "themes/" "hello/" "myfirstwidget/" "corroutinesexp/" "revel_wiki/" "crud/" "gowiki/" "binding/" "beego_wiki/" "my-first-table/" ".DS_Store" "auth_api/" "optionGroup/" "../" "./")
+
+ ("/Users/poncho/work/src/github.com/" (22369 41946 0 0) "mattn/" "agtorre/" "badgerdon/" "russross/" "lib/" "cpuguy83/" "ponchoalv/" "spf13/" "beego/" "derekparker/" "astaxie/" "smartystreets/" "horrido/" "nsf/" "howeyc/" "shurcooL/" "golang/" "jtolds/" "go-sql-driver/" "rogpeppe/" "robfig/" ".DS_Store" "lukehoban/" "klauspost/" "peterh/" "revel/" "gorilla/" "../" "./")
+
+ ("/Users/poncho/work/src/" (22367 16325 0 0) "9fans.net/" "sourcegraph.com/" "github.com/" "golang.org/" ".DS_Store" "gopkg.in/" "../" "./")
+
+ ("/Users/poncho/work/" (22144 44253 0 0) "src/" "pkg/" ".vscode/" "bin/" ".DS_Store" "../" "./")
+
+ ("/Users/poncho/desarrollo/fwpd/" (22467 15608 0 0) "src/" "doc/" "*cider-repl fwpd*" ".gitignore" "README.md" ".nrepl-port" "resources/" ".hgignore" "target/" "suspects.csv" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/poncho/IdeaProjects/" (22391 12631 0 0) "untitled/" "spring-data-vaadin-crud/" "examples/" "hola/" "reactorEventos/" "vaadinCRUD/" "flux/" ".DS_Store" "asd/" "EventBus/" "vaadin4spring/" "helloworld/" "../" "./")
+
+ ("/Users/poncho/desarrollo/the-divine-cheese-code/" (22991 275 539015 996000) "src/" "doc/" ".gitignore" "README.md" ".nrepl-port" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/poncho/desarrollo/the-divine-cheese-code/src/the_divine_cheese_code/visualization/" (22457 7588 0 0) "svg.clj" "../" "./")
+
+ ("/Users/poncho/desarrollo/the-divine-cheese-code/src/the_divine_cheese_code/" (22479 11867 0 0) "core.clj" "visualization/" "../" "./")
+
+ ("/Users/poncho/desarrollo/the-divine-cheese-code/src/" (22457 6987 0 0) "the_divine_cheese_code/" "../" "./")
+
+ ("c:/Users/ponch/AppData/Roaming/.emacs.d/themes/" (22445 50973 0 0) "tomorrow-theme.el" "tomorrow-night-theme.el" "tomorrow-night-eighties-theme.el" "tomorrow-night-bright-theme.el" "tomorrow-night-blue-theme.el" "color-theme-tomorrow.el" "../" "./")
+
+ ("c:/Users/ponch/AppData/Roaming/.emacs.d/" (22990 43187 0 0) "tramp" "themes/" "server/" "README.md" "projectile.cache" "projectile-bookmarks.eld" "places" "init.el~" "init.el" "ido.last" "eshell/" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" "ac-comphist.dat" ".smex-items" ".recentf" ".gitignore" ".git/" "%backup%~" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/" (22990 39863 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj.bck" "project.clj" "profiles.clj" "Procfile" "picture-gallery.iml" "log/" "image.jpg" "figwheel_server.log" "externs/" "env/" "Dockerfile" "dev-resources/" "db.txt" "Capstanfile" ".nrepl-port" ".lein-failures" ".lein-env" ".idea/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ponch/AppData/Roaming/" (22990 34715 0 0) "WinRAR/" "WhatsApp/" "webex/" "vlc/" "VisualVM/" "uTorrent/" "TortoiseSVN/" "TechSmith/" "Sun/" "Subversion/" "SQL Developer/" "Spotify/" "Skype/" "Samsung/" "RealPresence Desktop/" "RabbitMQ/" "postgresql/" "Pencil/" "NuGet/" "npm-cache/" "npm/" "nightcode.core/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Macromedia/" "LightTable/" "Kitematic/" "JetBrains/" "JDeveloper/" "java/" "IsolatedStorage/" "Intel Corporation/" "Intel/" "Helios/" "Greenshot/" "GoToTags/" "Google/" "GitHub/" "FileZilla/" "Docker/" "Code/" "bower/" "Bizagi Ltd/" "Atom/" "Adobe/" ".emacs.d/" ".config/" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/src/clj/picture_gallery/db/" (22989 19234 0 0) "core.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/src/clj/" (22571 23284 0 0) "picture_gallery/" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/src/" (22571 23284 0 0) "cljs/" "cljc/" "clj/" "../" "./")
+
+ ("c:/Users/ponch/Programas/" (22977 30097 0 0) "cmder/" "../" "./")
+
+ ("c:/Users/ponch/AppData/" (22986 46523 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/" (22986 46486 0 0) "Public/" "ponch/" "oracledb/" "desktop.ini" "defaultuser1/" "Default.migrated/" "Default User/" "Default/" "All Users/" "Administrador/" "../" "./")
+
+ ("c:/Users/ponch/projects/" (22988 6749 0 0) "yaus/" "videochat/" "valores/" "vaadin-on-kotlin.trace.db" "vaadin-on-kotlin.mv.db" "vaadin-on-kotlin/" "the-divine-cheese-code/" "swagger-service/" "sqlite/" "sms-api/" "simply-url/" "shorturl-dotnet/" "servo/" "Sancor NBSF/" "rocket-pastebin/" "rocket/" "reporting-example/" "picture-gallery/" "pegthing/" "pagina-hola-mundo/" "Nueva carpeta/" "my_bakery/" "my-app/" "migw32/" "html-to-mht/" "html-templating/" "hello_world/" "hello_web/" "guestbook.trace.db" "guestbook.mv.db" "guestbook/" "guessing_game/" "gs-crud-with-vaadin/" "fwpd/" "firmadigital.rar" "firmadigital/" "file-io/" "FAM/" "ejemplo-ldap/" "DesencriptarActas/" "dencrypt/" "db-examples/" "crates_modules/" "clojure-noob/" "chat/" "bancadigital/" "asj/" "AnypointStudio/" "actas/" "../" "./")
+
+ ("c:/Users/ponch/" (22986 47022 0 0) "workspace/" "work/" "VirtualBox VMs/" "Videos/" "Usuarios - Acceso directo.lnk" "unzip-5.51-1-bin/" "tslint.json" "Tracing/" "TonidoLiteSetup.exe" "Thumbs.db" "temp/" "static.key" "SendTo/" "Searches/" "Saved Games/" "runtime-EclipseApplication/" "Roaming/" "resumen.pdf" "Reciente/" "putty.exe" "putty-0.67-installer.msi" "projects/" "Programas/" "produccion/" "Plantillas/" "pip/" "Pictures/" "pass/" "OracleBPMWorkspace/" "Oracle/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{56ccc108-a2f7-11e7-ace9-204747ef50c4}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{56ccc108-a2f7-11e7-ace9-204747ef50c4}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{56ccc108-a2f7-11e7-ace9-204747ef50c4}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "Nightmod/" "Music/" "Mis documentos/" "migracion.txt" "MicrosoftEdgeBackups/" "Menú Inicio/" "logs/" "Links/" "leiningen-installer-1.0.exe" "leiningen/" "lein.bat" "IntelGraphicsProfiles/" "InstallAnywhere/" "init.bat" "Impresoras/" "IdeaProjects/" "Favorites/" "F649 Alvarez Fernando.pdf" "Error en servidor WS Soluciones Andinas.png" "Entorno de red/" "emacs/" "Downloads/" "Documents/" "Desktop/" "Datos de programa/" "datavisa.xml" "Cookies/" "Contacts/" "Configuración local/" "coffeelint.json" "boleta_31553806.pdf" "asdas.txt" "AppData/" "AnypointStudio/" "3D Objects/" ".vscode/" ".vs/" ".VirtualBox/" ".viminfo" ".swt/" ".ssh/" ".rustup/" ".pencil/" ".p2/" ".oracle_jre_usage/" ".odps.studio/" ".multirust/" ".m2/" ".lein/" ".IntelliJIdea2017.2/" ".IdeaIC2017.1/" ".IdeaIC2016.2/" ".IdeaIC2016/" ".gradle/" ".gitconfig" ".fuego/" ".eslintrc" ".erlang.cookie" ".emacs.d/" ".eclipse/" ".dnx/" ".csslintrc" ".cordova/" ".config/" ".cargo/" ".bash_history" ".atom/" ".ApacheDirectoryStudio/" ".AndroidStudio2.2/" ".android/" "../" "./")
+
+ ("c:/Users/ponch/projects/guestbook/resources/" (22562 14970 0 0) "templates/" "target/" "sql/" "public/" "migrations/" "docs/" "../" "./")
+
+ ("c:/Users/ponch/projects/guestbook/" (22981 43200 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "profiles.clj" "Procfile" "log/" "guestbook_dev.db.mv.db" "env/" "Dockerfile" "Capstanfile" ".nrepl-port" ".lein-repl-history" ".lein-failures" ".lein-env" ".idea/" ".gitignore" ".gitattributes" ".git/" "../" "./")
+
+ ("c:/Users/ponch/projects/guestbook/src/clj/guestbook/routes/" (22940 31295 0 0) "ws.clj" "home.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/guestbook/src/clj/guestbook/" (22929 61987 0 0) "routes/" "middleware.clj" "layout.clj" "handler.clj" "db/" "core.clj" "config.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/guestbook/src/cljs/guestbook/" (22569 42084 0 0) "ws.cljs" "core.cljs" "../" "./")
+
+ ("c:/Users/ponch/projects/hello_web/" (22423 48057 0 0) "target/" "src/" "Cargo.toml" "Cargo.lock" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/resources/" (22581 54693 0 0) "templates/" "sql/" "public/" "migrations/" "docs/" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/" (22629 385 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "profiles.clj" "Procfile" "log/" "env/" "Dockerfile" "Capstanfile" ".nrepl-port" ".lein-env" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ponch/projects/rocket-pastebin/src/" (22772 55559 0 0) "main.rs" "../" "./")
+
+ ("c:/Users/ponch/projects/rocket-pastebin/" (22772 55656 0 0) "src/" "Cargo.toml" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/src/cljs/picture_gallery/components/" (22583 31991 0 0) "upload.cljs" "registration.cljs" "login.cljs" "gallery.cljs" "common.cljs" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/src/cljs/picture_gallery/" (22584 10786 0 0) "router.cljs" "core.cljs" "components/" "ajax.cljs" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/src/clj/picture_gallery/routes/" (22583 31991 0 0) "services.clj" "services/" "home.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/yaus/" (22629 25492 0 0) "urls.db" "target/" "src/" "shorurl.db" "shorturl.db" "shortcut.db" "README.md" "migrations/" "LICENSE" "Cargo.toml" "Cargo.lock" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ponch/projects/guestbook/src/clj/" (22555 32200 0 0) "guestbook/" "../" "./")
+
+ ("c:/Users/ponch/projects/guestbook/src/cljs/" (22562 13555 0 0) "guestbook/" "../" "./")
+
+ ("c:/Users/ponch/projects/guestbook/src/" (22562 13499 0 0) "cljs/" "clj/" "../" "./")
+
+ ("c:/Users/ponch/projects/simply-url/resources/migrations/" (22628 2205 0 0) "20161228152052-add-users-table.up.sql" "20161228152052-add-users-table.down.sql" "../" "./")
+
+ ("c:/Users/ponch/projects/simply-url/resources/" (22628 645 0 0) "templates/" "sql/" "public/" "migrations/" "docs/" "../" "./")
+
+ ("c:/Users/ponch/projects/simply-url/src/clj/simply_url/" (22628 1033 0 0) "routes/" "middleware.clj" "layout.clj" "handler.clj" "db/" "core.clj" "config.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/simply-url/src/clj/simply_url/routes/" (22628 644 0 0) "home.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/simply-url/src/clj/" (22628 644 0 0) "simply_url/" "../" "./")
+
+ ("c:/Users/ponch/projects/simply-url/src/" (22628 644 0 0) "clj/" "../" "./")
+
+ ("c:/Users/ponch/projects/simply-url/" (22628 644 0 0) "test/" "src/" "resources/" "README.md" "project.clj" "profiles.clj" "Procfile" "env/" "Dockerfile" "Capstanfile" ".gitignore" "../" "./")
+
+ ("c:/Users/ponch/projects/yaus/src/" (22627 55363 0 0) "main.rs" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/env/prod/clj/sms_api/" (22606 44992 0 0) "env.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/env/prod/clj/" (22606 44992 0 0) "sms_api/" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/env/prod/" (22606 44992 0 0) "resources/" "clj/" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/env/" (22606 44992 0 0) "test/" "prod/" "dev/" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/src/clj/sms_api/routes/" (22616 18333 0 0) "services.clj" "services/" "home.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/src/clj/sms_api/routes/services/" (22616 18285 0 0) "helpers.clj" "../" "./")
+
+ ("c:/Users/ponch/emacs/" (22566 6031 0 0) "var/" "share/" "libexec/" "lib/" "include/" "etc/" "bin/" "../" "./")
+
+ ("c:/Users/ponch/emacs/bin/" (22566 6036 0 0) "zlib1.dll" "xzmore" "xzless" "xzgrep" "xzfgrep" "xzegrep" "xzdiff" "xzdec.exe" "xzcmp" "xzcat.exe" "xz.exe" "xmlwf.exe" "xmllint.exe" "xmlcatalog.exe" "xml2-config" "xgettext.exe" "x86_64-w64-mingw32-agrep.exe" "wrjpgcom.exe" "unxz.exe" "trust.exe" "tmrdemo.exe" "tjbench.exe" "tiffsplit.exe" "tiffset.exe" "tiffmedian.exe" "tiffinfo.exe" "tiffdump.exe" "tiffdither.exe" "tiffcrop.exe" "tiffcp.exe" "tiffcmp.exe" "tiff2rgba.exe" "tiff2ps.exe" "tiff2pdf.exe" "tiff2bw.exe" "thumbnail.exe" "srptool.exe" "sexp-conv.exe" "runemacs.exe" "rsvg-view-3.exe" "rsvg-convert.exe" "rgb2ycbcr.exe" "regex2.dll" "recode-sr-latin.exe" "rdjpgcom.exe" "raw2tiff.exe" "ras2tiff.exe" "psktool.exe" "ppm2tiff.exe" "pngfix.exe" "png-fix-itxt.exe" "pkcs1-conv.exe" "pango-view.exe" "pal2rgb.exe" "p11tool.exe" "p11-kit.exe" "ocsptool.exe" "ngettext.exe" "nettle-pbkdf2.exe" "nettle-lfib-stream.exe" "nettle-hash.exe" "msguniq.exe" "msgunfmt.exe" "msgmerge.exe" "msginit.exe" "msggrep.exe" "msgfmt.exe" "msgfilter.exe" "msgexec.exe" "msgen.exe" "msgconv.exe" "msgcomm.exe" "msgcmp.exe" "msgcat.exe" "msgattrib.exe" "minizip.exe" "miniunzip.exe" "lzmainfo.exe" "lzmadec.exe" "libXpm.dll" "libXpm-noX4.dll" "libxml2-2.dll" "libwinpthread-1.dll" "libvtv_stubs-0.dll" "libvtv-0.dll" "libturbojpeg-0.dll" "libtre-5.dll" "libtiffxx-5.dll" "libtiff-5.dll" "libtasn1-6.dll" "libsystre-0.dll" "libstdc++-6.dll" "libssp-0.dll" "librsvg-2-2.dll" "libquadmath-0.dll" "libpng16-config" "libpng16-16.dll" "libpng-config" "libpixman-1-0.dll" "libpangowin32-1.0-0.dll" "libpangoft2-1.0-0.dll" "libpangocairo-1.0-0.dll" "libpango-1.0-0.dll" "libp11-kit-0.dll" "libnettle-6.dll" "libnettle-6-1.dll" "libnettle-4-7.dll" "libminizip-1.dll" "liblzo2-2.dll" "liblzma-5.dll" "libjpeg-8.dll" "libjasper-1.dll" "libintl-8.dll" "libidn-11.dll" "libidn-11.def" "libiconv-2.dll" "libhogweed-4.dll" "libhogweed-4-1.dll" "libhogweed-2-5.dll" "libharfbuzz-icu-0.dll" "libharfbuzz-gobject-0.dll" "libharfbuzz-0.dll" "libgthread-2.0-0.dll" "libgomp-plugin-host_nonshm-1.dll" "libgomp-1.dll" "libgobject-2.0-0.dll" "libgnutlsxx-28.dll" "libgnutls-openssl-27.dll" "libgnutls-30.dll" "libgnutls-28.dll" "libgmpxx-4.dll" "libgmp-10.dll" "libgmodule-2.0-0.dll" "libglib-2.0-0.dll" "libgio-2.0-0.dll" "libgif-7.dll" "libgettextsrc-0-19-6.dll" "libgettextpo-0.dll" "libgettextlib-0-19-6.dll" "libgdk_pixbuf-2.0-0.dll" "libgcc_s_seh-1.dll" "libfreetype-6.dll" "libfontconfig-1.dll" "libffi-6.dll" "libexpat-1.dll" "libcroco-0.6-3.dll" "libcharset-1.dll" "libcairo-script-interpreter-2.dll" "libcairo-gobject-2.dll" "libcairo-2.dll" "libbz2-1.dll" "libatomic-1.dll" "libasprintf-0.dll" "jpegtran.exe" "jasper.exe" "imginfo.exe" "imgcmp.exe" "idn.exe" "hb-view.exe" "hb-shape.exe" "hb-ot-shape-closure.exe" "gspawn-win64-helper.exe" "gspawn-win64-helper-console.exe" "gsettings.exe" "gresource.exe" "grep-changelog" "gobject-query.exe" "gnutls-serv.exe" "gnutls-cli.exe" "gnutls-cli-debug.exe" "glib-mkenums" "glib-gettextize" "glib-genmarshal.exe" "glib-compile-schemas.exe" "glib-compile-resources.exe" "gio-querymodules.exe" "gif2tiff.exe" "gettextize" "gettext.sh" "gettext.exe" "gdk-pixbuf-query-loaders.exe" "gdk-pixbuf-pixdata.exe" "gdk-pixbuf-csource.exe" "gdbus.exe" "gdbus-codegen" "freetype-config" "fc-validate.exe" "fc-scan.exe" "fc-query.exe" "fc-pattern.exe" "fc-match.exe" "fc-list.exe" "fc-cat.exe" "fc-cache.exe" "fax2tiff.exe" "fax2ps.exe" "etags.exe" "envsubst.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-25.1.exe" "emacs-24.5.exe" "ebrowse.exe" "djpeg.exe" "cxpm-noX.exe" "ctags.exe" "csslint-0.6.exe" "croco-0.6-config" "cjpeg.exe" "certtool.exe" "bzmore" "bzless" "bzip2recover.exe" "bzip2.exe" "bzgrep" "bzfgrep" "bzegrep" "bzdiff" "bzcmp" "bzcat.exe" "bunzip2.exe" "bmp2tiff.exe" "autopoint" "asn1Parser.exe" "asn1Decoding.exe" "asn1Coding.exe" "addpm.exe" "../" "./")
+
+ ("c:/Users/ponch/.m2/" (22482 57440 0 0) "repository/" "index/" "../" "./")
+
+ ("c:/Users/ponch/.m2/repository/" (22584 11648 0 0) "yesql/" "xpp3/" "xmlunit/" "xmlpull/" "xml-resolver/" "xml-apis/" "xerces/" "xalan/" "version-clj/" "venantius/" "velocity/" "tigris/" "superWebApp/" "strictly-specking-standalone/" "sslext/" "slingshot/" "simple-lein-profile-merge/" "selmer/" "secretary/" "ring-webjars/" "ring-middleware-format/" "ring-cors/" "ring/" "riddley/" "rhino/" "refactor-nrepl/" "reagent-utils/" "reagent/" "prone/" "prismatic/" "potemkin/" "plexus/" "pjstadig/" "oro/" "org/" "ognl/" "nz/" "ns-tracker/" "net/" "mount/" "migratus-lein/" "migratus/" "metosin/" "medley/" "markdown-clj/" "luminus-nrepl/" "luminus-migrations/" "luminus-immutant/" "luminus/" "logkit/" "log4j/" "leinjacker/" "lein-light-nrepl-instarepl/" "lein-light-nrepl/" "lein-immutant/" "lein-figwheel/" "lein-environ/" "lein-doo/" "lein-cprop/" "lein-cljsbuild/" "kibu/" "karma-reporter/" "junit/" "jtidy/" "json-html/" "joda-time/" "jdom/" "jboss-as-management/" "javax/" "jakemcc/" "io/" "instaparse/" "http-kit/" "hikari-cp/" "hiccups/" "hiccup/" "hawk/" "funcool/" "fs/" "frankiesardo/" "figwheel-sidecar/" "figwheel/" "environ/" "doxia/" "doo/" "dom4j/" "de/" "crypto-random/" "crypto-equality/" "cprop/" "conman/" "compojure/" "compliment/" "commons-validator/" "commons-pool/" "commons-logging/" "commons-lang/" "commons-io/" "commons-fileupload/" "commons-digester/" "commons-dbcp/" "commons-collections/" "commons-codec/" "commons-cli/" "commons-chain/" "commons-beanutils/" "com/" "clout/" "clojurewerkz/" "clojure-msgpack/" "clojure-complete/" "cljsjs/" "cljsbuild/" "cljs-tooling/" "cljs-ajax/" "clj-tuple/" "clj-time/" "clj-stacktrace/" "clj-pdf/" "clj-http-lite/" "clj-http/" "classworlds/" "circleci/" "cider/" "cheshire/" "ch/" "bultitude/" "buddy/" "bouncer/" "binaryage/" "bidi/" "backtick/" "backport-util-concurrent/" "avalon-framework/" "asm/" "args4j/" "aopalliance/" "antlr/" "../" "./")
+
+ ("c:/Users/ponch/.m2/repository/clj-http/" (22569 48011 0 0) "clj-http/" "../" "./")
+
+ ("c:/Users/ponch/.m2/repository/clj-http/clj-http/" (22569 48011 0 0) "2.3.0/" "../" "./")
+
+ ("c:/Users/ponch/.m2/repository/clj-http/clj-http/2.3.0/" (22569 48019 0 0) "_maven.repositories" "clj-http-2.3.0.pom.sha1" "clj-http-2.3.0.pom" "clj-http-2.3.0.jar.sha1" "clj-http-2.3.0.jar" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/src/clj/sms_api/" (22606 44992 0 0) "routes/" "middleware.clj" "layout.clj" "handler.clj" "core.clj" "config.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/src/clj/" (22606 44992 0 0) "sms_api/" "../" "./")
+
+ ("c:/Users/ponch/projects/sms-api/src/" (22606 44992 0 0) "clj/" "../" "./")
+
+ ("c:/Users/ponch/projects/chat/" (22593 27881 0 0) "target/" "src/" "Cargo.toml" "Cargo.lock" "bin/" ".gitignore" ".gitattributes" ".git/" "../" "./")
+
+ ("c:/Users/ponch/projects/chat/src/" (22593 27872 0 0) "main.rs" "frame.rs" "../" "./")
+
+ ("c:/Users/ponch/AppData/Roaming/.emacs.d/customizations/" (22584 63449 0 0) "ui.el" "shell-integration.el" "setup-rust.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("c:/Users/ponch/runtime-EclipseApplication/.metadata/" (22515 47364 0 0) "version.ini" ".plugins/" ".mylyn/" ".log" ".lock" "../" "./")
+
+ ("c:/Users/ponch/.lein/" (22581 56997 0 0) "self-installs/" "repl-port" "profiles.clj" "../" "./")
+
+ ("c:/Users/ponch/produccion/" (22580 38712 0 0) "wildfly-10.1.0.Final/" "nginx-1.11.6/" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/test/clj/picture_gallery/test/db/" (22571 23285 0 0) "core.clj" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/test/clj/picture_gallery/test/" (22571 23285 0 0) "handler.clj" "db/" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/test/clj/picture_gallery/" (22571 23285 0 0) "test/" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/test/clj/" (22571 23285 0 0) "picture_gallery/" "../" "./")
+
+ ("c:/Users/ponch/projects/picture-gallery/test/" (22571 23285 0 0) "cljs/" "clj/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

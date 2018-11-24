@@ -30,6 +30,11 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
+;; Fix for the warnigs
+(defvar ido-cur-item nil)
+(defvar ido-default-item nil)
+(defvar ido-cur-list nil)
+
 ;; The packages you want installed. You can also install these
 ;; manually with M-x package-install
 ;; Add in your own as you wish:
@@ -74,14 +79,26 @@
     ;; Rust mode
     rust-mode
 
+    ;; Cargo mode
+    cargo
+    
     ;; company auto complete for rust
     company
 
+    ;; Rust playground for trying things
+    rust-playground
+    
     ;; Racer for Rust
     racer
 
     ;; Treemacs
     treemacs-projectile
+
+    ;; clj-refactor
+    clj-refactor
+
+    ;; Aggressive-mode
+    aggressive-indent
 
     ;; Theme
     leuven-theme
@@ -151,7 +168,7 @@
 (load "setup-js.el")
 
 ;; Rust mode
-;; (load "setup-rust.el")
+(load "setup-rust.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -161,7 +178,11 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (leuven-theme clj-refactor dracula-theme racer rust-mode zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking aggressive-indent))))
+    (cargo rust-playground leuven-theme clj-refactor dracula-theme racer rust-mode zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking aggressive-indent)))
+ '(safe-local-variable-values
+   (quote
+    ((cider-cljs-repl-types
+      (figwheel "(do (require 'figwheel-sidecar.repl-api) (start-figwheel \"android\") (figwheel-sidecar.repl-api/cljs-repl))"))))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
