@@ -78,6 +78,10 @@
 
     ;; Rust mode
     rust-mode
+    ;;rustic
+
+    ;;Flycheck rust
+    flycheck-rust
 
     ;; Cargo mode
     cargo
@@ -91,6 +95,9 @@
     ;; Racer for Rust
     racer
 
+    ;; Rust-Playground
+    rust-playground
+
     ;; Treemacs
     treemacs-projectile
 
@@ -102,6 +109,10 @@
 
     ;; Theme
     leuven-theme
+
+    ;; Aggresive-ident
+    aggressive-indent
+
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -178,7 +189,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (cargo rust-playground leuven-theme clj-refactor dracula-theme racer rust-mode zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking aggressive-indent)))
+    (cargo flycheck-rust rust-mode lsp-mode rust-playground ido-ubiquitous leuven-theme clj-refactor dracula-theme racer zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit clojure-mode-extra-font-locking aggressive-indent)))
  '(safe-local-variable-values
    (quote
     ((cider-cljs-repl-types

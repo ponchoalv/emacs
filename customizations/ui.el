@@ -33,7 +33,7 @@
 
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :font "Consolas" :height 160)
+(set-face-attribute 'default nil :font "Consolas" :height 145)
 
 
 ;; the lines below by removing semicolons and play with the
