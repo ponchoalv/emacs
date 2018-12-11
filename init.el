@@ -52,7 +52,7 @@
 
     ;; integration with a Clojure REPL
     ;; https://github.com/clojure-emacs/cider
-    cider    
+    cider
     
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
@@ -80,9 +80,12 @@
     rust-mode
     ;;rustic
 
-    ;;Flycheck rust
+    ;; Flycheck rust
     flycheck-rust
 
+    ;; Fylchek-inline
+    flycheck-inline
+    
     ;; Cargo mode
     cargo
     
@@ -113,18 +116,18 @@
     ;; Aggresive-ident
     aggressive-indent
 
-    ))
+    )
 
-;; On OS X, an Emacs instance started from the graphical user
-;; interface will have a different environment than a shell in a
-;; terminal window, because OS X does not run a shell during the
-;; login. Obviously this will lead to unexpected results when
-;; calling external utilities like make from Emacs.
-;; This library works around this problem by copying important
-;; environment variables from the user's shell.
-;; https://github.com/purcell/exec-path-from-shell
-(if (eq system-type 'darwin)
-    (add-to-list 'my-packages 'exec-path-from-shell))
+  ;; On OS X, an Emacs instance started from the graphical user
+  ;; interface will have a different environment than a shell in a
+  ;; terminal window, because OS X does not run a shell during the
+  ;; login. Obviously this will lead to unexpected results when
+  ;; calling external utilities like make from Emacs.
+  ;; This library works around this problem by copying important
+  ;; environment variables from the user's shell.
+  ;; https://github.com/purcell/exec-path-from-shell
+  (if (eq system-type 'darwin)
+      (add-to-list 'my-packages 'exec-path-from-shell)))
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))
@@ -189,7 +192,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (cargo flycheck-rust rust-mode lsp-mode rust-playground ido-ubiquitous leuven-theme clj-refactor dracula-theme racer zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit clojure-mode-extra-font-locking aggressive-indent)))
+    (lab-themes cargo flycheck-rust rust-mode lsp-mode rust-playground ido-ubiquitous leuven-theme clj-refactor dracula-theme racer zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit clojure-mode-extra-font-locking aggressive-indent)))
  '(safe-local-variable-values
    (quote
     ((cider-cljs-repl-types

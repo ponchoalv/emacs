@@ -85,6 +85,11 @@
 (provide 'init-company-mode)
 (require 'cl)
 
+(add-hook 'after-init-hook #'global-flycheck-mode)
+(add-hook 'flycheck-mode-hook #'flycheck-inline-mode)
+
 ;; Set hash key-binding for mac os x
 ;; Allow hash to be entered  
 (global-set-key (kbd "M-3") '(lambda () (interactive) (insert "#")))
+(provide 'editing)
+
