@@ -192,7 +192,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (lab-themes cargo flycheck-rust rust-mode lsp-mode rust-playground ido-ubiquitous leuven-theme clj-refactor dracula-theme racer zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit clojure-mode-extra-font-locking aggressive-indent)))
+    (treemacs-projectile company flycheck-inline exec-path-from-shell lab-themes cargo flycheck-rust rust-mode lsp-mode rust-playground ido-ubiquitous leuven-theme clj-refactor dracula-theme racer zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit clojure-mode-extra-font-locking aggressive-indent)))
  '(safe-local-variable-values
    (quote
     ((cider-cljs-repl-types
