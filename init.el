@@ -122,6 +122,9 @@
 
     ;; web-mode for web support and JSX TSX too
     web-mode
+
+    ;; typescript mayor mode
+    typescript-mode
     
     ))
 
