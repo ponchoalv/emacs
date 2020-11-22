@@ -19,7 +19,7 @@
 
 ;; Don't show native OS scroll bars for buffers because they're redundant
 (when (fboundp 'scroll-bar-mode)
-  (scroll-bar-mode -1))
+  (scroll-bar-mode 1))
 
 ;; Color Themes
 ;; Read http://batsov.com/articles/2012/02/19/color-theming-in-emacs-reloaded/
@@ -30,9 +30,9 @@
 ;;(add-to-list 'load-path "~/.emacs.d/themes")
 ;;(load-theme 'dracula t)
 ;; (load-theme 'zenburn t)
-;; (load-theme 'tomorrow-night-bright t)
+;;(load-theme 'tomorrow-night-bright t)
 (load-theme 'leuven t)
-
+;;(load-theme 'lab-light t)
 
 ;; increase font size for better readability
 (set-face-attribute 'default nil :font "SF Mono")
