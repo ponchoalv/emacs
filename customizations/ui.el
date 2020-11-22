@@ -1,10 +1,12 @@
-;; These customizations change the way emacs looks and disable/enable
-;; some user interface elements. Some useful customizations are
-;; commented out, and begin with the line "CUSTOMIZE". These are more
-;; a matter of preference and may require some fiddling to match your
-;; preferences
 
-;; Turn off the menu bar at the top of each frame because it's distracting
+;;; These customizations change the way emacs looks and disable/enable
+;;; some user interface elements. Some useful customizations are
+;;: commented out, and begin with the line "CUSTOMIZE". These are more
+;;; a matter of preference and may require some fiddling to match your
+;;; preferences
+
+;;; Turn off the menu bar at the top of each frame because it's distracting
+;;; code:
 (menu-bar-mode -1)
 
 ;; Show line numbers
@@ -33,20 +35,20 @@
 
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :font "Consolas" :height 145)
+(set-face-attribute 'default nil :font "SF Mono")
 
 
 ;; the lines below by removing semicolons and play with the
 ;; values in order to set the width (in characters wide) and height
 ;; (in lines high) Emacs will have whenever you start it
-;; (setq initial-frame-alist '((top . 0) (left . 0) (width . 120) (height . 50)))
+(setq initial-frame-alist '((top . 0) (left . 0) (width . 120) (height . 50)))
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
- x-select-enable-clipboard t
+ select-enable-clipboard t
 
  ;; I'm actually not sure what this does but it's recommended?
- x-select-enable-primary t
+ select-enable-primary t
 
  ;; Save clipboard strings into kill ring before replacing them.
  ;; When one selects something in another program to paste it into Emacs,
@@ -72,3 +74,6 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+(provide 'ui)
+;;; ui.el ends here

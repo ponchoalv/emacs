@@ -1,7 +1,9 @@
-;; Customizations relating to editing a buffer.
+;;; package --- Summary
+;;; Commentary: Customizations relating to editing a buffer.
 
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
+;;; code:
 (global-set-key (kbd "M-/") 'hippie-expand)
 
 ;; Lisp-friendly hippie expand
@@ -83,8 +85,16 @@
 (add-hook 'prog-mode-hook 'company-mode)
 
 (provide 'init-company-mode)
-(require 'cl)
+
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
 
 ;; Set hash key-binding for mac os x
-;; Allow hash to be entered  
+;; Allow hash to be entered
 (global-set-key (kbd "M-3") '(lambda () (interactive) (insert "#")))
+
+(setq ns-alternate-modifier 'meta)
+(setq ns-right-alternate-modifier 'none)
+(provide 'editing)
+;;; editing.el ends here
+

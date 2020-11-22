@@ -1,6 +1,7 @@
-;;;;
-;; Packages
-;;;;
+;;; Package --- summary
+;;; Commentary:
+
+
 
 ;; Define package repositories
 (require 'package)
@@ -52,7 +53,7 @@
 
     ;; integration with a Clojure REPL
     ;; https://github.com/clojure-emacs/cider
-    cider    
+    cider
     
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
@@ -83,6 +84,9 @@
     ;;Flycheck rust
     flycheck-rust
 
+    ;;Flycheck-inline
+    flycheck-inline
+    
     ;; Cargo mode
     cargo
     
@@ -113,6 +117,12 @@
     ;; Aggresive-ident
     aggressive-indent
 
+    ;; Tide Typescript support
+    tide
+
+    ;; web-mode for web support and JSX TSX too
+    web-mode
+    
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -181,6 +191,9 @@
 ;; Rust mode
 (load "setup-rust.el")
 
+;; Typescript
+(load "setup-typescript.el")
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -188,12 +201,10 @@
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
  '(package-selected-packages
-   (quote
-    (cargo flycheck-rust rust-mode lsp-mode rust-playground ido-ubiquitous leuven-theme clj-refactor dracula-theme racer zenburn-theme tagedit smex rainbow-delimiters projectile paredit magit clojure-mode-extra-font-locking aggressive-indent)))
+   '(web-mode tide typescript-mode cargo flycheck-rust lsp-mode ido-ubiquitous leuven-theme clj-refactor dracula-theme zenburn-theme tagedit smex magit clojure-mode-extra-font-locking aggressive-indent))
  '(safe-local-variable-values
-   (quote
-    ((cider-cljs-repl-types
-      (figwheel "(do (require 'figwheel-sidecar.repl-api) (start-figwheel \"android\") (figwheel-sidecar.repl-api/cljs-repl))"))))))
+   '((cider-cljs-repl-types
+      (figwheel "(do (require 'figwheel-sidecar.repl-api) (start-figwheel \"android\") (figwheel-sidecar.repl-api/cljs-repl))")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

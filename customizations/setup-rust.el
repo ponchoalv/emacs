@@ -10,7 +10,7 @@
 (require 'flycheck-rust)
 
 (add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
-(setq racer-cmd (executable-find "racer.exe"))
+(setq racer-cmd (executable-find "racer"))
 
 ;; Racer for rust-mode
 (add-hook 'rust-mode-hook #'racer-mode)
@@ -20,6 +20,7 @@
 (add-hook 'rust-mode-hook #'cargo-minor-mode)
 
 (add-hook 'flycheck-mode-hook #'flycheck-rust-setup)
+(add-hook 'flycheck-mode-hook #'flycheck-inline-mode)
 
 ;; autocomplete
 (define-key rust-mode-map (kbd "TAB") #'company-indent-or-complete-common)
