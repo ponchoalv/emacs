@@ -28,14 +28,17 @@
 ;; for a more technical explanation.
 ;;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 ;;(add-to-list 'load-path "~/.emacs.d/themes")
-;;(load-theme 'dracula t)
+;; (load-theme 'dracula t)
 ;; (load-theme 'zenburn t)
-;;(load-theme 'tomorrow-night-bright t)
-(load-theme 'leuven t)
-;;(load-theme 'lab-light t)
+;; (load-theme 'tomorrow-night-bright t)
+;; (load-theme 'leuven t)
+(load-theme 'material t)
+;; (load-theme 'zenburn t)
+;; (load-theme 'spacemacs-dark t)
+;; (load-theme 'lab-light t)
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :font "SF Mono")
+(set-face-attribute 'default nil :font "Consolas" :height 120)
 
 
 ;; the lines below by removing semicolons and play with the

@@ -58,7 +58,7 @@
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
     ;; of ido
-    ido-ubiquitous
+    ;; ido-ubiquitous
 
     ;; Enhances M-x to allow easier execution of commands. Provides
     ;; a filterable list of possible commands in the minibuffer
@@ -113,6 +113,7 @@
 
     ;; Theme
     leuven-theme
+    material-theme material-theme
 
     ;; Aggresive-ident
     aggressive-indent
@@ -126,6 +127,8 @@
     ;; typescript mayor mode
     typescript-mode
     
+    ;; Exec path from shell
+    exec-path-from-shell
     )
 
   ;; On OS X, an Emacs instance started from the graphical user
@@ -204,7 +207,7 @@
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
  '(package-selected-packages
-   '(web-mode tide typescript-mode cargo flycheck-rust lsp-mode ido-ubiquitous leuven-theme clj-refactor dracula-theme zenburn-theme tagedit smex magit clojure-mode-extra-font-locking aggressive-indent))
+   '(material-theme spacemacs-theme web-mode tide typescript-mode cargo flycheck-rust lsp-mode ido-ubiquitous leuven-theme clj-refactor dracula-theme zenburn-theme tagedit smex magit clojure-mode-extra-font-locking aggressive-indent))
  '(safe-local-variable-values
    '((cider-cljs-repl-types
       (figwheel "(do (require 'figwheel-sidecar.repl-api) (start-figwheel \"android\") (figwheel-sidecar.repl-api/cljs-repl))")))))
