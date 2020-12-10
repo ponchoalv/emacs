@@ -38,7 +38,7 @@
 ;; (load-theme 'lab-light t)
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :font "Consolas" :height 120)
+(set-face-attribute 'default nil :font "Consolas" :height 100)
 
 
 ;; the lines below by removing semicolons and play with the

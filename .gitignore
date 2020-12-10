@@ -8,7 +8,6 @@ projectile-bookmarks.eld
 projectile.cache
 auto-save-list
 backups
-elpa
 eshell
 ac-comphist.dat
 tramp
@@ -16,4 +15,4 @@ tramp
 .cache
 .recent**
 ido**
-elpa/**
+

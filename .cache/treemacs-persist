@@ -1,13 +1,3 @@
 * Default Workspace
-** advent_of_code
- - path :: ~/desarrollo/advent_of_code
-** minimal-shadow-cljs-importing-npm
- - path :: ~/desarrollo/minimal-shadow-cljs-importing-npm
-** shadow-re-frame
- - path :: ~/desarrollo/shadow-re-frame
-** compojure-api-2
- - path :: ~/desarrollo/compojure-api-2
-** LibreriaAlvarezAPI
- - path :: ~/desarrollo/LibreriaAlvarezAPI
-** tp
- - path :: ~/desarrollo/projects/tp
+** GameB
+ - path :: c:/Users/A lf/source/repos/GameB
